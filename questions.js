@@ -9,7 +9,7 @@ let numberArray =  [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 
         doubleDimensionArray.push(numberArray.slice(j, j+2));
         doubleDimensionArray.push(numberArray.slice(j+2, j+5));
     }
-    // console.log('Question #1 Result', doubleDimensionArray);
+    console.log('Question #1 Result', doubleDimensionArray);
 })(numberArray);
 
 
